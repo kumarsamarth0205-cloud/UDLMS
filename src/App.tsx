@@ -6,7 +6,7 @@ import DigitalCertificateView from "./pages/DigitalCertificateView"
 
 function App() {
   return (
-    <Router basename="/UDLMS">
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="min-h-screen bg-background font-sans antialiased text-foreground">
         <Routes>
           <Route path="/" element={<LandingPage />} />
