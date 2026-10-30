@@ -77,7 +77,7 @@ export default function LandingPage() {
         {/* Left Hero & Consumer Verification Bar */}
         <div className="flex-1 flex flex-col items-start text-left max-w-2xl animate-in fade-in duration-700 slide-in-from-left-8">
           <Badge className="bg-blue-100 text-blue-800 hover:bg-blue-200 mb-4 px-3 py-1 text-xs font-bold border-0 shadow-sm">
-            Statutory Digital Infrastructure • SIH 2026
+            Statutory Digital Infrastructure • Central Registry
           </Badge>
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-4 text-slate-900 leading-tight">
             Unified Digital <br />
