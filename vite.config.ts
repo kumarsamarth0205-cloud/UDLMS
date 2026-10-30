@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.NODE_ENV === "production" ? "/UDLMS/" : "/",
+  base: process.env.VERCEL ? "/" : (process.env.NODE_ENV === "production" ? "/UDLMS/" : "/"),
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "./src"),
